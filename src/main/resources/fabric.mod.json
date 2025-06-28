@@ -3,7 +3,7 @@
 	"id": "examplemod",
 	"version": "${version}",
 	"name": "Example Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Hi friends!",
 	"authors": [
 		"Me!"
 	],
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.kwtsopoulos.examplemod.ExampleModDataGenerator"
+		],
+		"client": [
+			"com.kwtsopoulos.examplemod.ExampleModClient"
 		]
 	},
 	"mixins": [
